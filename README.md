@@ -23,8 +23,11 @@ And then add the line to the bottom of the file:
 ```
 dtoverlay=w1-gpio
 ```
-
-Clone the repo:
+Now reboot:
+```
+sudo reboot
+```
+Once the pi has rebooted, clone the repo:
 ```
 git clone https://github.com/tm2007/internet-thermometer-using-raspi-and-thingspeak.git
 ```
