@@ -23,6 +23,7 @@ And then add the line to the bottom of the file:
 ```
 dtoverlay=w1-gpio
 ```
+Now press "CTRL+X" followed by "Y" and then "Enter"
 Now reboot:
 ```
 sudo reboot
