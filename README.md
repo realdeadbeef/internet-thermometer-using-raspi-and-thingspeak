@@ -1,4 +1,4 @@
-## Initial Setup
+## Initial Setup.
 For this project you will need:
 * A raspberry pi running raspbian buster lite
 * A DS18B20 temperature sensor
@@ -6,11 +6,11 @@ For this project you will need:
 * Jumper leads
 * 4.7k Resistor
 
-## Wiring
+## Wiring.
 Note: this should be done while the pi is switched off
 
 Look at "Wiring.png"	
-## Setup (Code)
+## Setup (Code).
 To setup this project, follow these commands in terminal
 
 Before you can use any 1-wire devices, you must first tell the Raspberry Pi how to read them.
@@ -40,7 +40,8 @@ Install httplib2
 ```
 sudo pip3 install httplib2
 ```
-Install urllib
+Install urllib3
 ```
 sudo pip3 install urllib3
 ```
+## Running the script.
