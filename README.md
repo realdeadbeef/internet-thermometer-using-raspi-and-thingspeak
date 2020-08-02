@@ -54,7 +54,7 @@ sudo pip3 install urllib3
 ## Running the script.
 Type:
 ```
-sudo nano code.py
+sudo nano internet-thermometer-using-raspi-and-thingspeak/code.py
 ```
 And look for the line: ```key = "ABCEDFG1234567"  # Put your API Key here``` And replace ABCEDFG1234567 with your API key.
 
@@ -62,5 +62,5 @@ Now press "CTRL+X" followed by "Y" and then "Enter"
 
 And then to run the script:
 ```
-python code.py
+python internet-thermometer-using-raspi-and-thingspeak/code.py
 ```
