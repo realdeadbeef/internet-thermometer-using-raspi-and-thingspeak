@@ -56,4 +56,11 @@ Type:
 ```
 sudo nano code.py
 ```
-And look for the line: ```
+And look for the line: ```key = "ABCEDFG1234567"  # Put your API Key here``` And replace ABCEDFG1234567 with your API key.
+
+Now press "CTRL+X" followed by "Y" and then "Enter"
+
+And then to run the script:
+```
+python code.py
+```
