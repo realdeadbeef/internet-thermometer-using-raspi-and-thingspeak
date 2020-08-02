@@ -5,6 +5,7 @@ import os
 import glob
 
 key = "ABCEDFG1234567"  # Put your API Key here
+
 def thermometer():
     while True:
         #########################################################################################################
