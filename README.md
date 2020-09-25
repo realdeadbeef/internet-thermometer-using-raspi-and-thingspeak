@@ -37,7 +37,7 @@ sudo reboot
 ```
 Once the pi has rebooted, clone the repo:
 ```
-git clone https://github.com/tm2007/internet-thermometer-using-raspi-and-thingspeak.git
+git clone https://github.com/realdeadbeef/internet-thermometer-using-raspi-and-thingspeak.git
 ```
 Install pip3:
 ```
