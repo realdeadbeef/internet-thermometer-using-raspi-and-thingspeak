@@ -1,6 +1,6 @@
 ## Thingspeak
 Go to https://thingspeak.com/ and hit "Get started for free". Create your account and then log in
-* Press "New Channel".
+* Hit "New Channel".
 * Give it a name, scroll to the bottom and click "Save channel".
 * Click on "API Keys" at the top of the screen.
 * Copy the write API key
@@ -16,7 +16,7 @@ For this project you will need:
 ## Wiring.
 Note: this should be done while the pi is switched off
 
-Look at "Wiring.png"	
+Look at "Wiring.png" and copy diagram
 ## Setup (Code).
 To setup this project, follow these commands in terminal
 
@@ -26,7 +26,7 @@ Type:
 ```
 sudo nano /boot/config.txt
 ```
-And then add the line to the bottom of the file:
+And then add the line to the bottom of the file (if it is already there you can skip this step):
 ```
 dtoverlay=w1-gpio
 ```
