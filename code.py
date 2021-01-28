@@ -43,8 +43,8 @@ def thermometer():
                 return temp_c
 
         #########################################################################################################
-        #Calculate CPU temperature of Raspberry Pi in Degrees C
-        temp = int(open('/sys/class/thermal/thermal_zone0/temp').read()) / 1e3 # Get Raspberry Pi CPU temp
+        #Calculate temperature of thermometer in Degrees C
+        temp = int(open('/sys/class/thermal/thermal_zone0/temp').read()) / 1e3 # Get temp
         params = urllib.urlencode({'field1': (read_temp()), 'key':key }) 
         headers = {"Content-typZZe": "application/x-www-form-urlencoded","Accept": "text/plain"}
         conn = httplib.HTTPConnection("api.thingspeak.com:80")
