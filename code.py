@@ -20,9 +20,8 @@ def thermometer():
 
         # A function that reads the sensors data
         def read_temp_raw():
-            f = open(device_file, 'r')  # Opens the temperature device file
-            lines = f.readlines() # Returns the text
-            f.close()
+            with open(device_file, 'r') as f:
+                lines = f.readlines() # Returns the text
             return lines
         # Convert the value of the sensor into a temperature
         def read_temp():
@@ -39,8 +38,7 @@ def thermometer():
             # '=' into degrees Celsius, then degrees Fahrenheit
             if equals_pos != -1:
                 temp_string = lines[1][equals_pos+2:]
-                temp_c = float(temp_string) / 1000.0
-                return temp_c
+                return float(temp_string) / 1000.0
 
         #########################################################################################################
         #Calculate temperature of thermometer in Degrees C
